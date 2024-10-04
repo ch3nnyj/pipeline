@@ -11,8 +11,10 @@ online-first journalism.
 Ensure these are installed before continuing.
 
 - [Python 3.7](https://www.python.org) or Python 3.6
+- [Pyenv](https://github.com/pyenv/pyenv) (If you have newer version of python use pyenv global 3.7 (or 3.6) )
 - [Pipenv](https://docs.pipenv.org)
 - [npm](https://www.npmjs.com/get-npm)
+- [Node v10](https://github.com/nvm-sh/nvm)
 - [Postgres](https://www.postgresql.org)
 
 You can change Pipeline's settings to use SQLite instead of Postgres, but this is not recommended because Pipeline relies on Postgres's full-text search features.
